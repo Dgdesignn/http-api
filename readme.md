@@ -36,8 +36,8 @@ Esta implementação serve como material de estudo e demonstração de como func
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/SEU-USUARIO/api-produtos-node-basico.git
-cd api-produtos-node-basico
+git clone https://github.com/Dgdesignn/http-api
+cd http-api
 
 # 2. (Opcional) use a versão básica
 git checkout main
@@ -76,4 +76,10 @@ Respostas sempre em JSON com Content-Type fixo
 * Parsing de URL muito simples (pode quebrar com paths inesperados)
 
 > *Essas limitações são resolvidas intencionalmente nas próximas **branches**.*
+>
+> ## Versões do Projeto
+
+- **[main](https://github.com/seu-usuario/api-produtos-node-basico)**: Versão Básica (http nativo + memória)
+- **[intermediate](https://github.com/seu-usuario/api-produtos-node-basico/tree/intermediate)**: Versão Intermediária (validações + arquivo JSON)
+- **[advanced](https://github.com/seu-usuario/api-produtos-node-basico/tree/advanced)**: Versão Avançada (banco de dados + auth)
 
